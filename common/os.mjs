@@ -1,6 +1,7 @@
 #!/usr/bin/env zx
 
 const commands = Array.from(new Set(process.argv.slice(3)))
+console.log('rrr',command)
 const defaultCommands = {
   platform: () => os.platform(),
   type: () => os.type(),
